@@ -6,7 +6,7 @@ x = np.arange(0,6,0.1) # 0에서 6까지 0.1 간격으로 생성
 y = np.sin(x) #sin 함수 생성
 
 plt.plot(x,y)
-plt.show()
+# plt.show()
 
 #cos 함수
 
@@ -20,4 +20,11 @@ plt.xlabel("x") #x축 이름
 plt.ylabel("y") #y축 이름
 plt.title("sin & cos") #제목
 plt.legend()
+# plt.show()
+
+# image 넣기
+from matplotlib.image import imread
+img = imread('Lenna.png')
+plt.clf() #plt reset
+plt.imshow(img)
 plt.show()
