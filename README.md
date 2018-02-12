@@ -12,5 +12,5 @@
 1. LogicGateSourceCode **_(# LogicGate code )_**
 1. FunctionSourceCode **_(# 활성화 함수 code )_**
 1. MatrixSourceCode **_(# Matrix 계산 code_행렬 내적)_**
-1. PerceptronSourceCode **_(# 신경망 이론 code )_**
+1. PerceptronSourceCode **_(# Perceptron 이론 code )_**
 1. MNIST_Perceptron **_(# MINIST 데이터를 이용한 신경망 구축)_**
